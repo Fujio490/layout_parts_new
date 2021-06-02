@@ -15,8 +15,8 @@
   background-color: #ecf1f2;
 }
 
-.layout tbody:nth-child(5) {
-  border-bottom: dashed #000 2px;
+.layout tbody:last-child {
+  border-top: dashed #000 2px;
 }
 
 .layout th {
