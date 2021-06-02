@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.layout {
+  table-layout: fixed;
+  width: 100%;
+}
 
+.subheading, .table_content {
+  padding: 10px;
+  border: 1px solid #dedede;
+}
+
+.table_body:nth-child(2n+1) {
+  background-color: #ecf1f2;
+}
+
+.table_body:nth-child(5) {
+  border-bottom: dashed #000 2px;
+}
+
+.subheading {
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+  background-color: #2244aa;
+}
+
+.table_content {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
 /* 回答はここに書いてね */
