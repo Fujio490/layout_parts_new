@@ -6,27 +6,27 @@
   width: 100%;
 }
 
-.subheading, .table_content {
+.layout th, .layout td {
   padding: 10px;
   border: 1px solid #dedede;
 }
 
-.table_body:nth-child(2n+1) {
+.layout tbody:nth-child(2n+1) {
   background-color: #ecf1f2;
 }
 
-.table_body:nth-child(5) {
+.layout tbody:nth-child(5) {
   border-bottom: dashed #000 2px;
 }
 
-.subheading {
+.layout th {
   font-size: 18px;
   line-height: 26px;
   color: #FFF;
   background-color: #2244aa;
 }
 
-.table_content {
+.layout td {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
