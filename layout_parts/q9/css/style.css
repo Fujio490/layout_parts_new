@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.quote {
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  border-radius: 30px;
+  border: solid 5px #222;
+  position: relative;
+}
 
+.quote::before, .quote::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  z-index: 1;
+  border: solid transparent 20px;
+}
+
+.quote::before {
+  border-top-color: #222;
+  bottom: -45px;
+  left: 30px;
+}
+
+.quote::after {
+  border-top-color: #fff;
+  bottom: -38px;
+  left: 30px;
+}
 /* 回答はここに書いてね */
