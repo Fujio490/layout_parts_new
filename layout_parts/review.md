@@ -17,3 +17,9 @@
 
 6.  relativeの重複した箇所
     - クラスを統合しました。
+
+7.  tableのclearfix vertical_topの方が良い
+
+8.  scale(1)はデフォルトなので不要 keyframe0％に0degを明記
+
+9.  z-indexが不要
